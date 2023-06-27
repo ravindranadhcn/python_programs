@@ -1,7 +1,7 @@
 # python_programs
 
 There are many other that would help you scriptiong, here are few that would really help you.
-
+~~~
 $_- The default parameter for a lot of functions.
 $.- Holds the current record or line number of the file handle that was last read. It is read-only and will be reset to 0 when the file handle is closed.
 $/- Holds the input record separator. The record separator is usually the newline character. However, if $/ is set to an empty string, two or more newlines in the input file will be treated as one.
@@ -41,3 +41,4 @@ $^P- This variable is an internal flag that the debugger clears so it will not d
 $^T-- Holds the time, in seconds, at which the script begins running.
 $^W-- Holds the current value of the -w command line option.
 $^X-- Holds the full pathname of the Perl interpreter being used to run the current script.
+~~~
